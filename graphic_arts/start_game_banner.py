@@ -28,7 +28,7 @@ def animation(screen):
               speed=1),
         Print(screen,
               SpeechBubble("Please press X - start game"),
-              screen.height-5,
+              screen.height - 5,
               speed=1, transparent=False)
 
     ]

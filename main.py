@@ -83,6 +83,7 @@ def choice_char_class() -> str:
 
 
 def main():
+    run_screensaver()
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name: str = input('...назови себя: ')
@@ -94,4 +95,5 @@ def main():
     print(start_training(char_name, char_class))
 
 
-main()
+if __name__ == '__main__':
+    main()
